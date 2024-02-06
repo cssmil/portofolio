@@ -2335,6 +2335,15 @@ body.modal {
   background-color: #1a1a1a;
   border-color: #1a1a1a;
 }
+.theme-dark .edina_tm_button .color {
+  color: #fff;
+  background-color: #1a1a1a;
+  border-color: #fff;
+}
+.edina_tm_button .color {
+  border-radius: 50px;
+}
+
 .edina_tm_contact .right {
   width: 50%;
   margin-left: 30px;
@@ -3424,4 +3433,10 @@ a {
   background: #000;
 }
 
+.d-none {
+  display: none;
+}
 
+.h-vh {
+  height: 100vh;
+}

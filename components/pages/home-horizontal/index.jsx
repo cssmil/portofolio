@@ -73,8 +73,8 @@ const EdinaHorizontal = () => {
 
       {/* <Hero /> */}
       {/* End Hero */}
-
-      <div className="edina_tm_portfolio" id="portfolio">
+      
+      {/* <div className="edina_tm_portfolio" id="portfolio">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Proyectos</h3>
@@ -82,14 +82,14 @@ const EdinaHorizontal = () => {
               Ultimos proyectos en los que he trabajado o participado como diseñador y desarrollador 
             </p>
           </div>
-          {/* End edian_tm_title */}
+ 
           <Portfolio />
         </div>
-      </div>
-      {/* End Portfolio */}
+      </div> */}
+
       
 
-      <div className="edina_tm_services" id="service">
+      {/* <div className="edina_tm_services" id="service">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Servicios</h3>
@@ -98,11 +98,11 @@ const EdinaHorizontal = () => {
               ipsum sit nibh amet egestas tellus.
             </p>
           </div>
-          {/* End edian_tm_title */}
+
           <Service />
         </div>
-      </div>
-      {/* End Services */}
+      </div> */}
+
 
       
       
@@ -140,20 +140,17 @@ const EdinaHorizontal = () => {
       </div> */}
 
 
-      <div className="edina_tm_contact" id="contact">
-        <div className="container">
-          <div className="edina_tm_title">
-            <h3>Contact</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
-            </p>
+
+        
+
+          {/* <div className="edina_tm_title">
+            <h3>Contacto</h3>
           </div>
           <div className="extra_info">
             <Address />
-          </div>
-          {/* End Address Info */}
-          <div className="mainpart">
+          </div> */}
+
+          {/* <div className="mainpart">
             <div
               className="left"
               data-aos="fade-right"
@@ -167,11 +164,11 @@ const EdinaHorizontal = () => {
                   <span> design work or partnerships.</span>
                 </p>
               </div>
-              {/* End title */}
+
               <div className="fields">
                 <Contact />
               </div>
-              {/* End Contact Form */}
+
             </div>
             <div
               className="right"
@@ -181,10 +178,12 @@ const EdinaHorizontal = () => {
             >
               <Map />
             </div>
-            {/* End Map */}
-          </div>
-        </div>
-      </div>
+
+          </div> */}
+
+
+
+
       {/* /CONTACT */}
     </div>
   );

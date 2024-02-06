@@ -1,6 +1,5 @@
 module.exports = [
   { icon: "home", itemName: "Home", itemRoute: "#home", activeClass: "active" },
-  { icon: "human", itemName: "Acerca de mí", itemRoute: "#about", activeClass: "" },
   {
     icon: "portfolio",
     itemName: "Proyectos",
@@ -8,23 +7,29 @@ module.exports = [
     activeClass: "",
   },
   {
-    icon: "service",
-    itemName: "Servicios",
-    itemRoute: "#service",
+    icon: "",
+    itemName: "",
+    itemRoute: "",
     activeClass: "",
   },
   
   {
-    icon: "testimonial",
-    itemName: "Testimonial",
-    itemRoute: "#testimonial",
+    icon: "",
+    itemName: "",
+    itemRoute: "",
     activeClass: "",
   },
   { icon: "blog", itemName: "Blog", itemRoute: "#blog", activeClass: "" },
   {
-    icon: "contact",
-    itemName: "Contacto",
-    itemRoute: "#contact",
+    icon: "",
+    itemName: "",
+    itemRoute: "",
     activeClass: "",
   },
+  { icon: "human", itemName: "Acerca de mí", itemRoute: "#about", activeClass: "" },
 ];
+
+/*
+
+
+*/

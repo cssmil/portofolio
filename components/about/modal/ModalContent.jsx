@@ -15,11 +15,11 @@ const ModalContent = () => {
           <h5>Bachiller en Ingeniería de Sistemas</h5>
           <p className="p_strong">Universidad Nacional del Centro del Perú</p>
           <PersonalInfo />
-          <div className="edina_tm_button mb-3">
+          {/* <div className="edina_tm_button mb-3">
             <a href="img/sample.pdf" download className="color">
               Descargar CV
             </a>
-          </div>
+          </div> */}
         </div>
         {/* End  PersonalInfo */}
         

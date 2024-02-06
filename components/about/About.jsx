@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     //    ABOUT
-    <div className="edina_tm_about" id="about">
+    <div className="edina_tm_about h-vh" id="about">
       <div className="container">
         
         <div className="content">
@@ -27,7 +27,7 @@ const About = () => {
             <div className="info">
               <div className="d-desktop" >
                 <div className="about_title">
-                  <h2 className="title">UI Designer | Frontend Developer</h2>
+                  <h2 className="title"> Frontend Developer | UI Designer </h2>
                 </div>
                 <h3 className="title">
                   Johnson Aquino 🇵🇪 🇵🇦
@@ -65,7 +65,7 @@ const About = () => {
               <div className="edina_tm_button">
                 <button
                   type="submit"
-                  className="color"
+                  className="color "
                   onClick={toggleModalOne}
                 >
                   Ver más
@@ -89,7 +89,7 @@ const About = () => {
               <div
                 className="main"
                 style={{
-                  backgroundImage: "url(img/about/photo-perfil.jpg)",
+                  backgroundImage: "url(img/about/work2.jpg)",
                 }}
                 data-aos="fade-left"
                 data-aos-duration="1200"
